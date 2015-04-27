@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matt Konstantinou </title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+		//this script courtesy of http://pixelcog.github.io/parallax.js
+      $(function(){
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+          $('#ios-notice').removeClass('hidden');
+          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+        } else {
+          $(window).resize(function(){
+            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+            $('.parallax-container').height(parallaxHeight);
+          }).trigger('resize');
+        }
+      });
+    </script>
+    <script src="../js/parallax.min.js"></script>
+  </head>
+  <body>
+	
+    <section>
+	
+      <div class="container">
+		
+		<div class="col-xs-9">
+			<div class="col-xs-3">
+				<img src="../img/me.jpg" alt="..." class="img-circle" style="width: 140px; height: 140px;">
+			</div>
+			<h1>Matt Konstantinou <small></small></h1>
+			<p>Software engineer with a wide range of experience in both Windows and Linux environments</p>
+			<a href="https://github.com/mkonstantinou" class="btn btn-default">Github</a>
+			<a href="https://bitbucket.org/mkonstan" class="btn btn-default">Bitbucket</a>
+			<a href="https://www.linkedin.com/in/mkonstantinou" class="btn btn-default">LinkedIn</a>
+		</div>
+		
+		<!--
+        <a href="https://github.com/pixelcog/parallax.js/archive/v1.3.1.zip" class="btn btn-default download-link">Download Parallax.js v1.3.1</a>
+        <a href="https://github.com/pixelcog/parallax.js/" class="btn btn-default">View on GitHub</a>
+		-->
+      </div>
+    </section>
+		
+    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="../img/eas.jpg" data-natural-width="4256" data-natural-height="2832">
+		<div class="container">
+			<h1 style="color: white; font-size: 72px; margin-top: 50%;">Education</h1>
+		</div>
+	</div>
+
+    <section>
+      <div class="container">
+        <h2 id="Stevens">Stevens Institute of Technology <small>Hoboken, NJ</small><br>
+		<small>B.S. in Computer Science | Graduating May 2016</small></h2>
+        
+		<h3 id="header2">Major Courses</h3>
+        <p></p>
+
+    </section>
+
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="../img/computer-hacker.jpg" data-natural-width="1400" data-natural-height="900">
+		<div class="container">
+			<h1 style="color: white; font-size: 72px; margin-top: 50%;">Experience</h1>
+		</div>
+	</div>
+
+    <section>
+      <div class="container">
+        <h2 id="SPHERE">SPHERE Technology Solutions <small>Junior Developer</small><br>
+		<small>June 2014-Present | Jersey City, NJ</small></h2>
+		
+        <ul>
+			<li>Create SQL stored procedures and scripts</li>
+			<li>Document existing database schema, scripts, and functions</li>
+            <li>Implement web application back end with SQL integration</li>
+            <li>Design and implement web application user interface</li>
+		</ul>
+		<hr/>
+		<h2 id="Nomura">Nomura Financial Holdings <small>Messaging Support Co-op</small><br>
+		<small>August 2013 - December 2013 | New York City, NY</small></h2>
+		
+        <ul>
+			<li>Design and implement Excel solutions for merging business documents</li>
+            <li>Create Excel comparison tools for employee records</li>
+            <li>Design and implement web application user interface</li>
+		</ul>
+		<hr/>
+		<h2 id="Nomura">Hess Corporation <small>Communications and Application Development Co-op</small><br>
+		<small>January 2013 - May 2013 | New York City, NY</small></h2>
+		
+        <ul>
+			<li>Develop applications for internal payment systems</li>
+            <li>Design back end and web interface of payment logging</li>
+            <li>Extend internal applications to increase user speed and efficiency</li>
+		</ul>
+      </div>
+    </section>
+	<!--
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="../img/" data-natural-width="1400" data-natural-height="900"></div>
+
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="../img/" data-natural-width="750" data-natural-height="763"></div>
+	-->
+    <footer>
+      <div class="container">
+        
+      </div>
+    </footer>
+    
+  </body>
+</html>
