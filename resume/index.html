@@ -14,20 +14,7 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script>
-		//this script courtesy of http://pixelcog.github.io/parallax.js
-      $(function(){
-        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-          $('#ios-notice').removeClass('hidden');
-          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
-        } else {
-          $(window).resize(function(){
-            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
-            $('.parallax-container').height(parallaxHeight);
-          }).trigger('resize');
-        }
-      });
-    </script>
+	<script src="./js/holder.min.js"></script>
     <script src="../js/parallax.min.js"></script>
   </head>
   <body>
@@ -47,14 +34,10 @@
 			<a href="https://www.linkedin.com/in/mkonstantinou" class="btn btn-default">LinkedIn</a>
 		</div>
 		
-		<!--
-        <a href="https://github.com/pixelcog/parallax.js/archive/v1.3.1.zip" class="btn btn-default download-link">Download Parallax.js v1.3.1</a>
-        <a href="https://github.com/pixelcog/parallax.js/" class="btn btn-default">View on GitHub</a>
-		-->
       </div>
     </section>
 		
-    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="../img/eas.jpg" data-natural-width="4256" data-natural-height="2832">
+    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="../img/eas.jpg" data-natural-width="1623" data-natural-height="1080">
 		<div class="container">
 			<h1 style="color: white; font-size: 72px; margin-top: 50%;">Education</h1>
 		</div>
@@ -67,7 +50,7 @@
         
 		<h3 id="header2">Major Courses</h3>
         <p></p>
-
+      </div>
     </section>
 
     <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="../img/computer-hacker.jpg" data-natural-width="1400" data-natural-height="900">

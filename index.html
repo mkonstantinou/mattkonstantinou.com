@@ -15,20 +15,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 	<script src="./js/holder.min.js"></script>
-    <script>
-		//this script courtesy of http://pixelcog.github.io/parallax.js
-      $(function(){
-        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-          $('#ios-notice').removeClass('hidden');
-          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
-        } else {
-          $(window).resize(function(){
-            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
-            $('.parallax-container').height(parallaxHeight);
-          }).trigger('resize');
-        }
-      });
-    </script>
     <script src="./js/parallax.min.js"></script>
   </head>
   <body>
@@ -55,9 +41,9 @@
       </div>
     </section>
 		
-    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/eas.jpg" data-natural-width="4256" data-natural-height="2832">
+    <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/eas.jpg"  style="">
 		<div class="container">
-			<h1 style="color: white; font-size: 72px; margin-top: 530px;">About Me</h1>
+			<h1 style="color: white; font-size: 72px; margin-top: 400px;">About Me</h1>
 		</div>
 	</div>
 
@@ -75,19 +61,19 @@
 			<a href="http://www.apo.org"><img src="./img/apo.jpg" class="img-square" style="display:block;margin-left:auto;margin-right:auto;width:140px;height:140px;"/></a>
 			<h4>I am a brother Alpha Phi Omega, Theta Alpha Chapter.  Within my chapter, I hold the position of Webmaster.</h4>
         </div>
-
+      </div>
     </section>
 
-	<div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/rocks.JPG" data-natural-width="5184" data-natural-height="3456">
-		<div class="container">
-			<h1 style="color: white; font-size: 72px; margin-top: 530px;">Interests</h1>
-		</div>
+	<div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/rocks_small.JPG" data-natural-width="1453" data-natural-height="968" style="height: 656px;">
+	  <div class="container">
+		<h1 style="color: white; font-size: 72px; margin-top: 530px;">Interests</h1>
+	  </div>
 	</div>
 	
 	<section>
 	  <div class="container">
         <h2>Software</h2>
-		<h4>In my free time, I enjoy experimenting with game development, artificial intelligence, and Android programming.</h4>
+		<h4>In my free time, I enjoy experimenting with various development environments and technologies.  I have experience in different Linux distributions, including Archlinux, Ubuntu, and Debian.  I've also dabbled in Android programming and Pebble smartwatch application development. </h4>
         <h2>Hobbies</h2>
 		<h4>Outside of software development, I enjoy going on photography trips to New York City, attending concerts, playing computer games, and, most recently, cooking.  I'm also interested in health and fitness.</h4>
         <h2>Service</h2>
@@ -95,7 +81,7 @@
 	  </div>	
     </section>
 	
-    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/computer-hacker.jpg" data-natural-width="1400" data-natural-height="900">
+    <div class="parallax-container" data-parallax="scroll" data-bleed="0" data-speed="0.2" data-image-src="./img/computer-hacker.jpg" data-natural-width="1698" data-natural-height="1131" style="height: 696px;">
 		<div class="container">
 			<h1 style="color: white; font-size: 72px; margin-top: 530px;">Projects</h1>
 		</div>
